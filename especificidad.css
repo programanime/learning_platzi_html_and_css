@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family:serif;
+}
+
+#page-title{
+    font-family:Arial, Helvetica;
+}
+
+.title{
+    font-size:18px;
+    font-family:monospace;
+}
+
+#main-nav{
+    margin-top:10px;
+    list-style-type:none;
+    padding-left:0;
+}
+
+#main-nav li{
+    display:inline-block;
+}
+
+#main-nav li::after{
+    content:' | ';
+}
+div > p {
+    
+}
+#main-nav a{
+    color: white;
+    background-color:#13a4a4;
+    padding:5px;
+    border-radius:2px;
+    text-decoration:none;
+}
+
+article p:first-of-type {
+  color: green;
+}
+article div + p {
+    color:red;
+}

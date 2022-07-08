@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <base href=""></base>
+    <meta name="description" content="this site is intended to be a sample" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
+</head>
+<body>
+    <div style="height:100vh;">
+        asdfasdf
+    </div>
+    <h4 style="width:510px;background-color:red;height:100px;padding:10px;border:30px solid green;box-sizing:border-box;margin:10px;">asdfasdf</h4>
+    <h5 style="height:50vh;">asdfasdf</h5>
+    <h3 class="main-main-nav__text">asdfasdf</h3>
+    <div>
+        <h1 class="main-main-nav__text">asdfasdf</h1>
+    </div>
+  <header style="height:100vh;">
+      <nav class="main-main-nav">
+        <ul class="main-nav">
+            <li  class="main-nav__item"><a  href="#">Home</a></li>
+            <li  class="main-nav__item"><a  href="#">Cursos</a></li>
+            <li  class="main-nav__item"><a  href="#">Instructores</a></li>
+            <li  class="main-nav__item"><a  href="#">Blog</a></li>
+        </ul>
+        <p class="main-main-nav__text">asdfasdf</p>
+        <button class="main-main-nav__btn">asdfasdf</button>
+      </nav>
+  </header>
+  
+  <main>
+      <section>
+          <article>
+              <ul>
+  <li>Duraznos</li>
+  <li>Manzanas</li>
+  <li>Ciruelas</li>
+</ul>
+          </article>
+      </section>
+      <div style="height:10px;"></div>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">cursos</a></li>
+                <li><a href="">instructores</a></li>
+                <li><a href="">blog</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <article>
+            <ul class="main-nav">
+                <li>
+                    hola
+                </li>
+            </ul>
+        </article>
+    </section>
+    <section>
+        <article>
+            <p>uno</p>
+            <p class="para">dos</p>
+            <p class="para"  id="purple">tres</p>
+            <p class="para"  id="purple" style="color:green;">tres</p>
+        </article>
+        <article>
+            <h2>datalist</h2>
+            <form action="">
+                <label for="cursitos">
+                    <span>cursos</span>
+                    <input list="cursos" id="cursitos" name="cursitos" />
+                    <datalist id="cursos">
+                        <option value="javascript"></option>
+                        <option value="html5"></option>
+                        <option value="css3"></option>
+                        <option value="web"></option>
+                    </datalist>
+                </label>
+            </form>
+            <h2>form autocomplete and require</h2>
+            <form class="form-autocomplete" action="">
+                <label for="nombre">
+                    <span>¿cual es tu nombre?</span>
+                    <input id="nombre" name="nombre" autocomplete="name" required />
+                </label>
+                                
+                <label for="correo">
+                    <span>¿Cual es tu correo?</span>
+                    <input id="correo" type="email" name="correo" autocomplete="email" required />
+                </label>
+                
+                <label for="senior">
+                    <span>¿Cual es tu correo?</span>
+                    <input type="checkbox" id="senior" name="senior" required />
+                </label>
+                
+                <input disabled />
+                
+                <label for="cp">
+                    <span>¿Código postal?</span>
+                    <input type="text" id="cp" name="cp"  />
+                </label>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <h2>calendar long way</h2>
+            <form action="">
+                <label for="hora">
+                    <span>hora</span>
+                    <input type="time" id="hora" name="hora" />
+                </label>
+            
+                
+                <label for="dia">
+                    <span>Día</span>
+                    <input id="dia" type="date" name="dia" />
+                </label>
+                
+                <label for="semana">
+                    <span>semana</span>
+                    <input type="week" id="semana" name="semana" />
+                </label>
+                
+                
+                <label for="mes">
+                    <span>mes</span>
+                    <input type="month" id="mes" name="mes" />
+                </label>
+                
+                <input type="submit" />
+            </form>
+        </article>
+        
+        <article>
+            <h2>calendar short way</h2>
+                <form action="">
+                <label for="calendario">
+                    <span>calendario</span>
+                    <input type="datetime-local" id="calendario" name="calendario"  />
+                </label>
+                            
+                <input type="submit" />
+            </form>
+        </article>
+    </section>
+  </main>
+  
+  <footer>
+      <h6></h6>
+  </footer>
+</body>
+</html>

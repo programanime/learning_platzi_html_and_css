@@ -1,0 +1,226 @@
+html{
+    width:100%;
+    margin:1em;
+    padding:1em;
+    border:1em;
+    height:3000em;
+}
+
+:root{
+    --main-bg-color: brown;
+}
+
+p{
+    color:orange;
+}
+
+.para{
+    color:blue;
+}
+
+#purple{
+    color:purple;
+}
+
+.main-nav{
+    padding:10px;
+    margin-top:10px;
+    list-style-type: none;
+    background-color:#13a4a4;
+}
+
+
+:target {
+box-sizing:border-box;
+  border: 2px solid black;
+}
+
+.main-nav__item{
+    display:inline-block;
+}
+
+input:valid {
+  background-color: powderblue;
+}
+
+.main-nav__item a{
+    color:white;
+    padding:5px;
+    border-radius:2px;
+    text-decoration:none;
+}
+
+
+.main-nav__item a::before{
+    content:" | ";
+}
+
+.main-nav__item a:visited{
+    color:purple;
+}
+
+.main-nav__item a:hover{
+    color:blue;
+}
+
+.main-nav__item a:active{
+    color:red;
+}
+
+
+.main-main-nav__text:active{
+    color:red;
+}
+
+.main-main-nav__text:hover{
+    color:purple;
+}
+
+.main-main-nav__btn{
+    color:black;
+}
+
+.main-main-nav__btn:active{
+    color:red;
+}
+
+.main-main-nav__btn:hover{
+    color:purple;
+}
+
+
+.form-autocomplete label:first-child{
+    border:5px solid green;
+}
+
+
+
+input:checked {
+  margin-left: 25px;
+  border: 1px solid blue;
+}
+
+input:default {
+  background-color: var(--main-bg-color);
+}
+
+input:disabled {
+  background: red;
+}
+
+
+div:empty {
+  background: var(--main-bg-color);
+}
+
+
+
+p:first-of-type {
+  color: green;
+}
+
+
+div:-moz-full-screen {
+  background-color: pink;
+}
+
+div:-webkit-full-screen {
+  background-color: pink;
+}
+
+div:fullscreen {
+  background-color: pink;
+}
+
+p:last-of-type {
+  color: var(--main-bg-color);
+}
+
+p:last-child {
+  color: var(--main-bg-color);
+}
+
+:nth-child(even){
+    
+}
+
+p:nth-of-type(4n) {
+  color: var(--main-bg-color);
+}
+
+
+a:link {
+  color: red;
+}
+
+input:focus {
+  color: red;
+}
+
+input:read-only {
+  background-color: #ccc;
+}   
+
+input:read-write {
+  background-color: #bbf;
+}
+
+input:out-of-range {
+  background-color: rgba(255, 0, 0, 0.25);
+}
+
+h3:only-of-type {
+  background-color: var(--main-bg-color);
+}
+
+input:optional {
+  border: 1px dashed black;
+}
+
+h1:only-child {
+  background-color: gray;
+}
+
+
+
+*::first-letter {
+  font-size:2em;
+}
+
+p::first-line {
+  color: red;
+}
+
+::selection{ 
+    color: gold;  
+    background: red; 
+}
+
+::placeholder {
+  color: blue;
+  font-size: 1.5em;
+}
+
+
+
+h5::before{
+    content:' < ';
+}
+
+h5::after{
+    content:' > ';
+}
+
+
+ul li::marker {
+  color: green;
+  font-size: 1.5em;
+}
+
+*::spelling-error {
+  color: green !important;
+}
+
+*::grammar-error{
+    color: green !important;
+}
